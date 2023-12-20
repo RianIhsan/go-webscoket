@@ -1,0 +1,53 @@
+/* src/App.css */
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.ChatContainer {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.Message {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+
+.Username {
+  font-weight: bold;
+  color: #555;
+}
+
+.InputContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
